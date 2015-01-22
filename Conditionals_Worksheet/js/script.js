@@ -9,4 +9,16 @@ capacity *= reading;
 
 var gasRemain = capacity * gasEff;
 
-console.log(gasRemain);
+if (gasRemain > 200){
+    alert("Yes, you can make it to the next gas station without stopping for gas. \n You have " + gasRemain + " gallons of gas left.");
+    console.log("Yes, you can make it to the next gas station without stopping for gas. \n You have " + gasRemain + " gallons of gas left.")
+}else if (gasRemain <= 200){
+    alert("You only have " + gasRemain + " gallons of gas left. You Should consider stopping at the next gas station.");
+    console.log("You only have " + gasRemain + " gallons of gas left. You Should consider stopping at the next gas station.")
+}else{
+    alert("I believe something went wrong. I'm sorry. Please refresh and try again.");
+    console.log("I believe something went wrong. I'm sorry. Please refresh and try again.");
+}
+
+
+
