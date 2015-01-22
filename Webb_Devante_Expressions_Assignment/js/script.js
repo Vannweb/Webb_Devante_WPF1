@@ -15,7 +15,7 @@ var fourthWeek = prompt("Finally, how many " + productName[product] + " did we s
 
 // I'm so excited about this code because previously I couldn't even get it to work, it would just concatenate.
 // after I finally figured it out and tested it I was ecstatic! I created this code that seemed so cool in the way that
-// it operates. everything works this time and I'm hopeful with the future of my coding
+// it operates. everything works this time and I'm hopeful with the future of my coding.
 
 
 // Here I take all 4 week variables and add them together. I use the "Number" casting to make sure the variables don't just
