@@ -10,7 +10,7 @@ capacity *= reading; //I multiply the capacity by this percent to find out how m
 
 var gasRemain = capacity * gasEff; // lastly I use this equation to figure out how far the car can travel off of that gas
 // I use an if else if strong of statements to determine whether to print out a message that tells the user he or she can continue or encourage them to stop and get gas
-//I print these all out to the user and the console 
+//I print these all out to the user and the console
 if (gasRemain > 200){
     alert("Yes, you can make it to the next gas station without stopping for gas. \nYou have " + gasRemain + " gallons of gas left.");
     console.log("Yes, you can make it to the next gas station without stopping for gas. \n You have " + gasRemain + " gallons of gas left.")
