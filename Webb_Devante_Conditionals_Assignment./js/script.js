@@ -18,6 +18,14 @@ if(preference == "lattes" || preference == "Lattes" ){
         total = people * 12.95;
     } else total = people * 1.80;
 }
-console.log(total);
+//console.log(total);
+if(total > budget){
+    alert("Hey intern, you've passed the budget that you set. Your total is " + total + " dollars. You may want to consider changing up your oder a bit.");
 
+}else if(total > budget - 15 && total <= budget){
+    alert("Woo, you got everything you wanted and within budget range. Your total is " + total + " dollars. I'm sure your office mates will appreciate your efforts! ");
+}else if( total <= budget - 15){
+    alert("Intern you made it way under budget! Excellent! You've only spent " + total +" dollars! You could probably treat yourself to something special with the extra funds. I mean why not right?")
+}
+ console.log(total);
 
