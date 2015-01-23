@@ -11,13 +11,13 @@ if(preference == "lattes" || preference == "Lattes" ){
 
 }else if(type = prompt("You can either buy this in bulk as a Coffee Traveler, which serves twelve 8oz. cups in a convenient 96oz. disposable thermos for $12.95," +
 " or you can buy each person their own 12 oz cup of coffee for $1.80 each for a more personal touch \nPlease enter 'Traveler' or 'individual':")) {
-    /*if (type == "traveler" || type == "Traveler") {
+    if (type == "traveler" || type == "Traveler") {
         people /= 12;
         //console.log(total);
 
         total = people * 12.95;
-    } else total = people * 1.80; */
-
+    } else total = people * 1.80;
+   // (type == "traveler" || type == "Traveler") ? (people /= 12) (total = people * 12.95) : total = people * 1.80;
 }
 //console.log(total);
 if(total > budget){
