@@ -16,12 +16,18 @@ averageRent = 2100;
 var roomL = Number(prompt("Next we'll get an idea of how much space you'll have. Simply ask the landlord for the apartment specs." +
 "\nLet's begin with the length, in feet please:"));
 while(roomL === "" || isNaN(roomL)){
-    roomL = Number(prompt("Please don't Leave the answer blank or enter text. Enter a number only:"))
+    roomL = Number(prompt("Please don't Leave the answer blank or enter text. Enter a number only:"));
 }
 var roomW = Number(prompt("Next find out the width of the room, and enter it here:"));
+while (roomW === "" || isNaN(roomW)){
+    roomW = Number(prompt("Please don't Leave the answer blank or enter text. Enter a number only:"));
+}
 
 var roomH = Number(prompt("Finally, we'll take the height in here:"));
+while (roomH === "" || isNaN(roomH)){
+    roomH = Number(prompt("Please don't Leave the answer blank or enter text. Enter a number only:"));
 
+}
 
 var priceToLive = function rentPrice(occupy, rent){
     return rent / occupy;
@@ -35,9 +41,9 @@ var space = roomVolForm(roomW, roomH, roomL);
 function roomVolForm(w,h,l){
     return w * h * l;
 }
-alert("The total you will have to pay a month for a 1 bedroom apartment should be around $" + total + ". This is just an estimate but expect this price.");
+alert("The total you will have to pay a month for a 1 bedroom apartment should be around $" + total + ". This is just an estimate but expect something around this price.");
 
-alert("And the amount of space you should expect is "+ space + " square feet. I hope this is enough for all your things" );
+alert("And the amount of space you should expect is "+ space + " square feet. I hope this is enough for all of your things!" );
 
 alert("Living in San Francisco is expensive. However it can be a place of much opportunity and discovery. I hope you enjoy your home!");
 
