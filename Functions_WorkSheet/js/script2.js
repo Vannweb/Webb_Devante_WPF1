@@ -20,4 +20,4 @@ function stingCalc(lbs){
 alert("It would take " + result + " bee stings to kill someone of that weight. Please refresh to try a new weight." +
 " Thank you."); //I tell the user how many stings it would take to kill someone of this weight.
 console.log("It would take " + result + " bee stings to kill someone of that weight. Please refresh to try a new weight." +
-" Thank you."); //Here I print it to the console as well, as per instructions 
+" Thank you."); //Here I print it to the console as well, as per instructions
