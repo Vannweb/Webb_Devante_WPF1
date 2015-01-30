@@ -23,6 +23,18 @@ var priceToLive = function rentPrice(occupy, rent){
 
 var total = priceToLive(occupants, averageRent);
 
-function roomVol(w,h,l){
+var space = roomVolForm(roomW, roomH, roomL);
+
+
+function roomVolForm(w,h,l){
     return w * h * l;
 }
+alert("The total you will have to pay a month for a 1 bedroom apartment should be around $" + total + ". This is just an estimate but expect this price.");
+
+alert("And the amount of space you should expect is "+ space + " square feet. I hope this is enough for all your things" );
+
+alert("Living in San Francisco is expensive. However it can be a place of much opportunity and discovery. I hope you enjoy your home!");
+
+/*I tested the code by entering the values 1000 500 and 700, and forgot to write down the total! However I will be testing more
+
+ */
