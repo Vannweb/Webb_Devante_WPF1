@@ -6,8 +6,9 @@ var radius = Number(prompt("What is the radius of the circle?"));
 // made a variable for the circumference which is essentially the result and then I invoke the function
 var circumference = calCirc(radius);
 // make the functions here and also make the parameters
+// var pi = Math.PI
 function calCirc(r){
-    return r * 2; // I return the result here
+    return r * 2 * Math.PI; // I return the result here
 }
 alert("The Circumference of your circle is " + circumference + ". Thank you for using me!"); //I tell the user what the result is using the circumference variable
 console.log("The Circumference of your circle is " + circumference + ". Thank you for using me!"); // finally I print the circumference to the console
