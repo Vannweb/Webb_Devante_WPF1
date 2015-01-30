@@ -16,7 +16,7 @@ averageRent = 2100;
 var roomL = Number(prompt("Next we'll get an idea of how much space you'll have. Simply ask the landlord for the apartment specs." +
 "\nLet's begin with the length, in feet please:"));
 while(roomL === "" || isNaN(roomL)){
-    while =
+    roomL = Number(prompt("Please don't Leave the answer blank or enter text. Enter a number only:"))
 }
 var roomW = Number(prompt("Next find out the width of the room, and enter it here:"));
 
@@ -42,5 +42,7 @@ alert("And the amount of space you should expect is "+ space + " square feet. I 
 alert("Living in San Francisco is expensive. However it can be a place of much opportunity and discovery. I hope you enjoy your home!");
 
 /*I tested the code by entering the values 1000 500 and 700, and forgot to write down the total! However I will be testing more
-I used the values dad mom spaghetti and 0 to test the first while loop
+I used the values dad mom spaghetti and 0 to test the first while loop.
+Then I used the values jet black loutre and 50 to check the second loop
+
  */
