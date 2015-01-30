@@ -1,4 +1,4 @@
-//Functions Worksheet Devante Webb 1/28/2015
+//Functions Worksheet Devante Webb 1/29/2015
 // Here I welcome the user to the website and inform them of
 alert("Hello! I will help you find the circumference of a circle.");
 // I made a variable for the radius and I prompt the user to enter the radius of the circle
