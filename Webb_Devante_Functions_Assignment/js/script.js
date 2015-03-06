@@ -53,5 +53,4 @@ alert("Living in San Francisco is expensive. However it can be a place of much o
 /*I tested the code by entering the values 1000 500 and 700, and forgot to write down the total! However I will be testing more
 I used the values dad mom spaghetti and 0 to test the first while loop.
 Then I used the values jet black loutre and 50 to check the second loop
-
- */
+*/
